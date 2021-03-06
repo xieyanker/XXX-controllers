@@ -1,0 +1,13 @@
+apiVersion: test.inspur.com/v1alpha1
+kind: Xxx
+metadata:
+  name: xxx-sample
+spec:
+  # git clone https://github.com/kelseyhightower/helloworld.git /root/go/src/helloworld
+  # cd /root/go/src/helloworld
+  # go build
+  gitUrl: https://github.com/kelseyhightower/helloworld.git
+  clonePath: /root/go/src/helloworld
+  buildCommand: go build
+  binaryName: helloworld
+  jobName: build-helloworld

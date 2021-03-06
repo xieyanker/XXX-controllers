@@ -1,0 +1,7 @@
+domain: inspur.com
+repo: iop.inspur.com/XXX-controllers
+resources:
+- group: test
+  kind: Xxx
+  version: v1alpha1
+version: "2"
